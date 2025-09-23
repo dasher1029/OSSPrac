@@ -18,8 +18,7 @@ public class HelloWorld {
         int stdnum = Integer.parseInt(br.readLine());
 
         System.out.println("<출력>");
-        System.out.println("이름: " + name);
-        System.out.println("학번: " + stdnum);
+        bw.write("이름: " + name + "\n학번: " + stdnum + "\n");
 
         bw.flush();
         bw.close();
