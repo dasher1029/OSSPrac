@@ -1,2 +1,4 @@
 # OSSPrac
-25_2_OSSPrac
+## Name: Taehoon Kim
+### Email: chickenm00@dgu.ac.kr
+- OSS Practice with Github
