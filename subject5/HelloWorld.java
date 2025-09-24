@@ -16,13 +16,14 @@ public class HelloWorld {
         String name = br.readLine();
         System.out.println("학번을 입력하세요: ");
         int stdnum = Integer.parseInt(br.readLine());
+        System.out.println("학과를 입력하세요: ");
+        String major = br.readLine();
 
         System.out.println("<출력>");
-        bw.write("이름: " + name + "\n학번: " + stdnum + "\n");
+        bw.write("이름: " + name + "\n학번: " + stdnum + "\n학과: " + major + "\n");
 
         bw.flush();
         bw.close();
         br.close();
     }
 }
-//수정 
