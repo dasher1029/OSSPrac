@@ -18,9 +18,11 @@ public class HelloWorld {
         int stdnum = Integer.parseInt(br.readLine());
         System.out.println("학과를 입력하세요: ");
         String major = br.readLine();
+        System.out.println("학년을 입력하세요: ");
+        String year = br.readLine();
 
         System.out.println("<출력>");
-        bw.write("이름: " + name + "\n학번: " + stdnum + "\n" + major + "\n");
+        bw.write("이름: " + name + "\n학번: " + stdnum + "\n학과: " + major + "\n학년: " + year + "\n");
 
         bw.flush();
         bw.close();
