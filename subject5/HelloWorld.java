@@ -20,13 +20,14 @@ public class HelloWorld {
         String major = br.readLine();
         System.out.println("학교를 입력하세요: ");
         String university = br.readLine();
+        System.out.println("학년을 입력하세요: ");
+        String year = br.readLine();
 
         System.out.println("<출력>");
-        bw.write("이름: " + name + "\n학번: " + stdnum + "\n학과: " + major + "\n학교: " + university + "\n");
+        bw.write("이름: " + name + "\n학번: " + stdnum + "\n학과: " + major + "\n학교: " + university + "\n학년: " + year + "\n");
 
         bw.flush();
         bw.close();
         br.close();
     }
 }
-//수정 했음 진짜로 
